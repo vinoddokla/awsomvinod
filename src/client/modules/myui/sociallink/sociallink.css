@@ -1,0 +1,24 @@
+.github {
+    background-position: -80px 166px;
+}
+
+.dribbble {
+    background-position: -118px 205px;
+}
+
+.linkedin {
+    background-position: -235px -3px;
+}
+
+.twitter {
+    background-position: -43px -3px;
+}
+
+.basic {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-image: url('/resources/socialicons.png');
+    background-size: 400px;
+    cursor: pointer;
+}

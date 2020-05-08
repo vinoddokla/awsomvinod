@@ -1,0 +1,21 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer {
+    background-color: #d4d4d4;
+    padding: 25px 0;
+}
+
+.sociallinks {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 20%;
+}
+
+.experience {
+    flex: 80%;
+}

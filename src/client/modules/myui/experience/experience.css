@@ -1,0 +1,12 @@
+.heading {
+    font-size: 22px;
+}
+
+.title {
+    white-space: pre;
+    border-left: 1px solid #000;
+}
+
+.timer {
+    font-size: 12px;
+}

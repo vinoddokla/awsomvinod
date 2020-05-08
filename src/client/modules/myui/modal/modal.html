@@ -1,0 +1,34 @@
+<template>
+    <div class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="close">
+                <div class="close-button" onclick={handleModalClose}>
+                    <span>&times;</span>
+                </div>
+            </div>
+            <div class="header">
+                <div class="container">
+                    {header}
+                </div>
+            </div>
+            <div class="body">
+                <div class="container">
+                    <div class="bodymessage">
+                        {bodyMessage}
+                    </div>
+                    <div class="projectLinks">
+                        <template for:each={projectLinks} for:item="project">
+                            <a
+                                href={project.href}
+                                key={project.title}
+                                target="_blank"
+                                >{project.title}</a
+                            >
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

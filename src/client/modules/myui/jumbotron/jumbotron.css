@@ -1,0 +1,58 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    background-color: #000;
+    padding: 40px 80px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 50%;
+    color: #fff;
+}
+
+.side img {
+    width: 100px;
+}
+
+.main {
+    flex: 50%;
+}
+
+.main img {
+    width: 100%;
+}
+
+.header {
+    font-size: 45px;
+    font-family: 'Segoe UI Black', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.header-child {
+    font-size: 30px;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.message {
+    font-size: 40px;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scroller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroller img {
+    width: 25px;
+    margin-top: 30px;
+}

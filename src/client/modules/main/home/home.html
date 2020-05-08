@@ -1,0 +1,24 @@
+<template>
+    <template if:true={showHeader}>
+        <myui-header></myui-header>
+    </template>
+    <template if:true={showJumbotron}>
+        <myui-jumbotron
+            header="Hola, ¿cómo estás?"
+            header-child="Yo soy Vinod."
+            message="I am Salesforce developer 
+        and UI/UX Designer when 
+        doing nothing."
+            jombo-image-url="/resources/kitteh.png"
+            profile-url="/resources/userphoto.png"
+        ></myui-jumbotron>
+    </template>
+    <template if:true={showGallery}>
+        <div class="body">
+            <myui-gallery></myui-gallery>
+        </div>
+    </template>
+    <template if:true={showFooter}>
+        <myui-footer></myui-footer>
+    </template>
+</template>

@@ -1,0 +1,18 @@
+<template>
+    <div class="footer">
+        <div class="container">
+            <div class="experience">
+                <myui-experience></myui-experience>
+            </div>
+            <div class="sociallinks">
+                <template for:each={socialLinkData} for:item="socialLink">
+                    <myui-social-link
+                        key={socialLink.icon}
+                        social-href={socialLink.href}
+                        social-icon={socialLink.icon}
+                    ></myui-social-link>
+                </template>
+            </div>
+        </div>
+    </div>
+</template>

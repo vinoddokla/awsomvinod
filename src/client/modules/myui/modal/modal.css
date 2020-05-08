@@ -1,0 +1,63 @@
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: scroll; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    padding: 10px 0;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 80%;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.close {
+    overflow: hidden;
+}
+
+.close-button {
+    background-color: #bf282f;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.header {
+    font-size: 28px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.body {
+    margin-top: 10px;
+}
+
+.projectLinks {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.projectLinks a {
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #d4d4d4;
+    color: #000;
+}

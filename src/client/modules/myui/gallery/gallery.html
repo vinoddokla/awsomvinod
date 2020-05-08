@@ -1,0 +1,29 @@
+<template>
+    <div class="gallery">
+        <div class="container">
+            <div class="header">
+                <p>Work and Projects</p>
+            </div>
+            <div class="body">
+                <template for:each={projectData} for:item="project">
+                    <myui-card
+                        key={project.title}
+                        class="card"
+                        header={project.title}
+                        onshowpopup={handlePopupEvent}
+                        body-content={project.description}
+                        data-project={project.title}
+                    ></myui-card>
+                </template>
+            </div>
+            <template if:true={showPopup}>
+                <myui-modal
+                    onclosemodal={closeModalHandler}
+                    header={headerText}
+                    body-message={bodyMessage}
+                    project-links={projectLinks}
+                ></myui-modal>
+            </template>
+        </div>
+    </div>
+</template>

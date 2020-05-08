@@ -1,0 +1,14 @@
+.button {
+    padding: 8px;
+    font: 16px Segoe UI;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.danger {
+    background-color: #bf282f;
+}
