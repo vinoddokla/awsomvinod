@@ -1,6 +1,6 @@
 import { LightningElement, api, track } from 'lwc';
 
-export default class SocialLink extends LightningElement {
+export default class Sociallink extends LightningElement {
     @api
     socialHref = 'http://github.com/';
     @api
