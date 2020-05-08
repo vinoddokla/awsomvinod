@@ -1,6 +1,6 @@
 import { LightningElement, api } from 'lwc';
 
-export default class CustomButton extends LightningElement {
+export default class Custombutton extends LightningElement {
     @api
     buttonValue = 'ButtonValue';
     @api
@@ -8,6 +8,7 @@ export default class CustomButton extends LightningElement {
     @api
     buttonStyle = 'danger';
     buttonClass;
+
     connectedCallback() {
         this.buttonClass = 'button ' + this.buttonStyle;
     }
